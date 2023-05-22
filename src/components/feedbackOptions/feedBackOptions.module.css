@@ -1,0 +1,19 @@
+.feedbackList {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  list-style: none;
+  padding: 0;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: rgb(117, 111, 64);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(223, 216, 181);
+}
