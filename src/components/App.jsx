@@ -12,14 +12,14 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const handleIncrementClick = target => {
-    if (target === 'good') {
+  const handleIncrementClick = type => {
+    if (type === 'good') {
       setGood(prev => prev + 1);
     }
-    if (target === 'neutral') {
+    if (type === 'neutral') {
       setNeutral(prev => prev + 1);
     }
-    if (target === 'bad') {
+    if (type === 'bad') {
       setBad(prev => prev + 1);
     }
   };
